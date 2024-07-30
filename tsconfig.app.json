@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ES2022", // Ensure 'module' is set to 'ES2022'
+    "target": "ES2022", // Use 'ES2022' or let Angular CLI set it
+    "useDefineForClassFields": false // Ensure this is consistent with Angular CLI's settings
+  },
+  "exclude": ["test.ts", "**/*.spec.ts"]
+}
